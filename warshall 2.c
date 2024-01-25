@@ -1,5 +1,5 @@
 #include<stdio.h>
-void floyd(int cost[10][10], int n)
+void warshal(int cost[10][10], int n)
 {
 	for(int k=0;k<n;k++)
 	{
@@ -47,5 +47,5 @@ int main()
 	    printf("\n");
 	}
 	
-	floyd(cost,n);
+	warshal(cost,n);
 }
